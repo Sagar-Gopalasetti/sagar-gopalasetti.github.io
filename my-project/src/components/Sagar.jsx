@@ -23,12 +23,15 @@ const Sagar = () => {
         {/* Left side with text */}
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start mx-10">
-            <h1 className="pb-16 text-7xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
+            <h1 className="pb-8 text-5xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
               Sagar Gopalasetti
             </h1>
 
             {/* Typed effect for different job titles */}
-            <span className="bg-gradient-to-r from-purple-500 via-slate-500 to-blue-500 bg-clip-text text-7xl tracking-tight text-transparent leading-relaxed">
+            <span
+              className="bg-gradient-to-r from-purple-500 via-slate-500 to-blue-500 bg-clip-text text-3xl sm:text-5xl lg:text-7xl tracking-tight text-transparent leading-snug whitespace-nowrap"
+              style={{ minHeight: "70px", paddingBottom: "0.2em" }} // Added padding and line height adjustment
+            >
               {"_"}
               {text}
             </span>
