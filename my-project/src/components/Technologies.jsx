@@ -1,37 +1,48 @@
 import React from "react";
-import {RiReactjsLine,RiJavascriptFill} from "react-icons/ri"
-import { FaNode, FaPython } from "react-icons/fa";
-import { SiExpress, SiMongodb } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-
-
-
+import { Icon } from '@iconify/react';
+import javascriptIcon from '@iconify/icons-logos/javascript';
+import reactIcon from '@iconify/icons-logos/react';
+import nodejsIcon from '@iconify/icons-logos/nodejs';
+import expressIcon from '@iconify/icons-logos/express';
+import mongodbIcon from '@iconify/icons-logos/mongodb';
+import postgresqlIcon from '@iconify/icons-logos/postgresql';
+import pythonIcon from '@iconify/icons-logos/python';
 
 export const Technologies = () => {
-  return <div className="border-b border-neutral-800 pb-24">
-  <h1 className="my-20 text-center text-4xl">Technologies</h1>
-  <div className="flex flex-wrap items-center justify-center gap-4">
-    <div className="rounded-2xl border-4 border-neutral-800 p-4">
-        <RiJavascriptFill className="text-7xl text-yellow-400"/>
+  return (
+    <div className="border-b border-neutral-800 pb-24">
+      <h1 className="my-20 text-center text-4xl">Technologies</h1>
+      <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="rounded-2xl  p-4">
+          <Icon icon="skill-icons:javascript" style={{ fontSize: '5rem' }} />
+        </div>
+        <div className="rounded-2xl  p-4">
+          <Icon icon="skill-icons:react-dark" style={{ fontSize: '5rem' }} />
+        </div>
+        <div className="rounded-2xl  p-4">
+          {/* Apply lightening filter to Node.js icon */}
+          <Icon icon="skill-icons:nodejs-dark"style={{ fontSize: '5rem'}} />
+        </div>
+        <div className="rounded-2xl  p-4">
+          {/* Apply lightening filter to Express icon */}
+          <Icon icon="skill-icons:expressjs-dark" style={{ fontSize: '5rem'}} />
+        </div>
+        <div className="rounded-2xl  p-4">
+          {/* Apply lightening filter to MongoDB icon */}
+          <Icon icon="skill-icons:mongodb" style={{ fontSize: '5rem'}} />
+        </div>
+        <div className="rounded-2xl  p-4">
+          <Icon icon='skill-icons:postgresql-dark' style={{ fontSize: '5rem' }} />
+        </div>
+        <div className="rounded-2xl  p-4">
+          <Icon icon="skill-icons:python-dark" style={{ fontSize: '5rem' }} />
+        </div>
+        <div className="rounded-2xl  p-4">
+          <Icon icon="skill-icons:postman" style={{ fontSize: '5rem' }} />
+        </div>
+      </div>
     </div>
-    <div className="rounded-2xl border-4 border-neutral-800 p-4">
-        <RiReactjsLine className="text-7xl text-cyan-400"/>
-    </div>
-    <div className="rounded-2xl border-4 border-neutral-800 p-4">
-        <FaNode className="text-7xl text-green-500"/>
-    </div> 
-    <div className="rounded-2xl border-4 border-neutral-800 p-4">
-        <SiExpress className="text-7xl"/>
-    </div> 
-    <div className="rounded-2xl border-4 border-neutral-800 p-4">
-        <SiMongodb className="text-7xl text-green-400"/>
-    </div>
-    <div className="rounded-2xl border-4 border-neutral-800 p-4">
-        <BiLogoPostgresql className="text-7xl text-blue-500"/>
-    </div>
-    <div className="rounded-2xl border-4 border-neutral-800 p-4">
-        <FaPython className="text-7xl text-cyan-400"/>
-    </div>
-  </div>
-  </div>;
+  );
 };
+
+export default Technologies;
