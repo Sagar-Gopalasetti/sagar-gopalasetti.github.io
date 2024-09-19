@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sagar-gopalasetti.github.io/react-portfolio",
+  "homepage": "https://sagar-gopalasetti.github.io/sagar-portfolio",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
