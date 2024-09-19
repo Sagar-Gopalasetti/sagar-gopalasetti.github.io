@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.95a94cbc.css",
-    "main.js": "/react-portfolio/static/js/main.a5ce13fb.js",
+    "main.css": "/react-portfolio/static/css/main.632582d2.css",
+    "main.js": "/react-portfolio/static/js/main.42313f3d.js",
     "static/media/Sagar.jpg": "/react-portfolio/static/media/Sagar.4fc13cd10a22335d0f01.jpg",
     "static/media/project-1.jpg": "/react-portfolio/static/media/project-1.ef941fbdd953176ba468.jpg",
     "static/media/project-2.jpg": "/react-portfolio/static/media/project-2.848a63d853fea7114f27.jpg",
@@ -10,11 +10,11 @@
     "static/media/project-4.jpg": "/react-portfolio/static/media/project-4.cee9d1175731475a650f.jpg",
     "static/media/ub-logo.png": "/react-portfolio/static/media/ub-logo.6e24518a1cf2484aaee3.png",
     "index.html": "/react-portfolio/index.html",
-    "main.95a94cbc.css.map": "/react-portfolio/static/css/main.95a94cbc.css.map",
-    "main.a5ce13fb.js.map": "/react-portfolio/static/js/main.a5ce13fb.js.map"
+    "main.632582d2.css.map": "/react-portfolio/static/css/main.632582d2.css.map",
+    "main.42313f3d.js.map": "/react-portfolio/static/js/main.42313f3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.95a94cbc.css",
-    "static/js/main.a5ce13fb.js"
+    "static/css/main.632582d2.css",
+    "static/js/main.42313f3d.js"
   ]
 }
