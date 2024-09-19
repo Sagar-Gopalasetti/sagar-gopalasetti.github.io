@@ -10,7 +10,7 @@ export const Navbar = ({ scrollToContact }) => {
       <div className="m-8 flex items-center gap-4 text-2xl">
         {/* LinkedIn Icon with link */}
         <a href="https://www.linkedin.com/in/sagar-gopalasetti/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="cursor-pointer hover:text-blue-600" />
+          <FaLinkedin className="cursor-pointer text-blue-400" />
         </a>
 
         {/* GitHub Icon with link */}
@@ -24,7 +24,7 @@ export const Navbar = ({ scrollToContact }) => {
         </a> */}
 
         {/* Phone Icon with scroll-to-contact functionality */}
-        <FaPhone onClick={scrollToContact} className="cursor-pointer hover:text-green-500" />
+        <FaPhone onClick={scrollToContact} className="cursor-pointer text-white-500" />
       </div>
     </nav>
   );
