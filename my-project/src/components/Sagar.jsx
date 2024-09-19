@@ -5,7 +5,12 @@ import { useTypewriter } from "react-simple-typewriter"; // Use react-simple-typ
 
 const Sagar = () => {
   const [text] = useTypewriter({
-    words: ["Full Stack Developer", "Front-End Developer", "Back-End Developer", "Software Engineer"],
+    words: [
+      "Full Stack Developer",
+      "Front-End Developer",
+      "Back-End Developer",
+      "Software Engineer",
+    ],
     loop: true,
     typeSpeed: 50,
     deleteSpeed: 30,
@@ -18,18 +23,19 @@ const Sagar = () => {
         {/* Left side with text */}
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start mx-10">
-            <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
+            <h1 className="pb-16 text-7xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
               Sagar Gopalasetti
             </h1>
 
             {/* Typed effect for different job titles */}
-            <span className="bg-gradient-to-r from-purple-500 via-slate-500 to-blue-500 bg-clip-text text-4xl tracking-tight text-transparent">
-            {'_'}{text}
+            <span className="bg-gradient-to-r from-purple-500 via-slate-500 to-blue-500 bg-clip-text text-7xl tracking-tight text-transparent leading-relaxed">
+              {"_"}
+              {text}
             </span>
 
-            <p className="my-2 max-w-xl tracking-tighter">
+            {/* <p className="my-2 max-w-xl tracking-tighter">
               {HERO_CONTENT}
-            </p>
+            </p> */}
           </div>
         </div>
 

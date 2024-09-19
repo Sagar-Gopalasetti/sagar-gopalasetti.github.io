@@ -14,9 +14,9 @@ export const Navbar = ({ scrollToContact }) => {
         </a>
 
         {/* GitHub Icon with link */}
-        <a href="https://github.com/Sagar-Gopalasetti" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://github.com/Sagar-Gopalasetti" target="_blank" rel="noopener noreferrer">
           <FaGithub className="cursor-pointer hover:text-gray-800" />
-        </a>
+        </a> */}
 
         {/* Instagram Icon with link */}
         {/* <a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer">
