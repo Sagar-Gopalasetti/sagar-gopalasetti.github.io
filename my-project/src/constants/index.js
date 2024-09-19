@@ -50,7 +50,7 @@ export const EDUCATION = [{
     degree: "Master of Computer Science",
     institution: "University at Buffalo",
     year: "2022",
-    logo: ub,
+    logo: ub
   },
   {
     degree: "Bachelor of Electroincs and Communication Engineering",
