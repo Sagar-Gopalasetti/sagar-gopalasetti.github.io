@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.21527ba2.css",
-    "main.js": "/react-portfolio/static/js/main.c1c50fe8.js",
+    "main.js": "/react-portfolio/static/js/main.401e3dc9.js",
     "static/media/Sagar.jpg": "/react-portfolio/static/media/Sagar.4fc13cd10a22335d0f01.jpg",
     "static/media/project-1.jpg": "/react-portfolio/static/media/project-1.ef941fbdd953176ba468.jpg",
     "static/media/project-2.jpg": "/react-portfolio/static/media/project-2.848a63d853fea7114f27.jpg",
@@ -11,10 +11,10 @@
     "static/media/ub-logo.png": "/react-portfolio/static/media/ub-logo.6e24518a1cf2484aaee3.png",
     "index.html": "/react-portfolio/index.html",
     "main.21527ba2.css.map": "/react-portfolio/static/css/main.21527ba2.css.map",
-    "main.c1c50fe8.js.map": "/react-portfolio/static/js/main.c1c50fe8.js.map"
+    "main.401e3dc9.js.map": "/react-portfolio/static/js/main.401e3dc9.js.map"
   },
   "entrypoints": [
     "static/css/main.21527ba2.css",
-    "static/js/main.c1c50fe8.js"
+    "static/js/main.401e3dc9.js"
   ]
 }
