@@ -19,6 +19,7 @@ export const About = () => {
           className="px-8 py-3 border-2 border-neutral-500 text-white-500 rounded-lg transition-colors"
         >
           Resume
+{/*           changed resume link */}
         </a>
       </div>
     </div>
