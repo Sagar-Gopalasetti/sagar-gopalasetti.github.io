@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5fae5a96.css",
-    "main.js": "/static/js/main.dba8490d.js",
+    "main.js": "/static/js/main.aeddb9bb.js",
     "static/media/Sagar.jpg": "/static/media/Sagar.4fc13cd10a22335d0f01.jpg",
     "static/media/project-1.jpg": "/static/media/project-1.ef941fbdd953176ba468.jpg",
     "static/media/project-2.jpg": "/static/media/project-2.848a63d853fea7114f27.jpg",
@@ -11,10 +11,10 @@
     "static/media/ub-logo.png": "/static/media/ub-logo.6e24518a1cf2484aaee3.png",
     "index.html": "/index.html",
     "main.5fae5a96.css.map": "/static/css/main.5fae5a96.css.map",
-    "main.dba8490d.js.map": "/static/js/main.dba8490d.js.map"
+    "main.aeddb9bb.js.map": "/static/js/main.aeddb9bb.js.map"
   },
   "entrypoints": [
     "static/css/main.5fae5a96.css",
-    "static/js/main.dba8490d.js"
+    "static/js/main.aeddb9bb.js"
   ]
 }
