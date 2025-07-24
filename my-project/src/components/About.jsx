@@ -13,7 +13,7 @@ export const About = () => {
       </div>
       <div className="flex justify-center mt-6">
         <a
-          href="https://drive.google.com/file/d/16_qNHYgNUB9WnPoOfkWvx8NrXaON7m8W/view?usp=sharing"
+          href='https://drive.google.com/file/d/16_qNHYgNUB9WnPoOfkWvx8NrXaON7m8W/view?usp=sharing'
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-3 border-2 border-neutral-500 text-white-500 rounded-lg transition-colors"
