@@ -9,7 +9,7 @@ export const Navbar = ({ scrollToContact }) => {
       </div>
       <div className="m-8 flex items-center gap-4 text-2xl">
         {/* LinkedIn Icon with link */}
-        <a href="https://www.linkedin.com/in/sagar-gopalasetti/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/gopalasetti-sagar/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="cursor-pointer text-blue-400" />
         </a>
 
